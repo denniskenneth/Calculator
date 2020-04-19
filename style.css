@@ -1,0 +1,22 @@
+/*   GENERAL STYLING FOR THE WHOLE CALCULATOR APP*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*   GENERAL BUTTON STYLING   */
+ .button{
+     height: 5rem;
+     width: 5rem;
+     font-size: 2rem;
+     margin: .2rem;
+     cursor: pointer;
+ }
+
+ /*   TEXTBOX STYLING   */
+ .textview{
+     width: 21.4rem;
+     margin: .2rem;
+     font-size: 2rem;
+     padding: .1rem;
+ }
