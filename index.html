@@ -3,39 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image" href="calculator.png">
     <link href="style.css" rel="stylesheet" type="text/css">
     <title>CalMate</title>
 </head>
 <body>
     <div class="main">
         <form class="holder center">
-        <input class="textview">
+        <input data-textarea class="screen">
         </form>
         <div class="container center">
             <table>
                 <tr>
-                    <td><input class="button" type="button" value="C"></td>
-                    <td><input class="button" type="button" value="0"></td>
-                    <td><input class="button" type="button" value="/"></td>
-                    <td><input class="button" type="button" value="="></td>
+                    <td><input data-clear class="button" id="clear-btn" type="button" value="C"></td>
+                    <td><input data-number class="button num-btn" type="button" value="0"></td>
+                    <td><input data-operator class="button ope-btn" type="button" value="/"></td>
+                    <td><input data-equals class="button" id="equ-btn" type="button" value="="></td>
                 </tr>
                 <tr>
-                    <td><input class="button" type="button" value="7"></td>
-                    <td><input class="button" type="button" value="8"></td>
-                    <td><input class="button" type="button" value="9"></td>
-                    <td><input class="button" type="button" value="x"></td>
+                    <td><input data-number class="button num-btn" type="button" value="7"></td>
+                    <td><input data-number class="button num-btn" type="button" value="8"></td>
+                    <td><input data-number class="button num-btn" type="button" value="9"></td>
+                    <td><input data-operator class="button ope-btn" type="button" value="*"></td>
                 </tr>
                 <tr>
-                    <td><input class="button" type="button" value="4"></td>
-                    <td><input class="button" type="button" value="5"></td>
-                    <td><input class="button" type="button" value="6"></td>
-                    <td><input class="button" type="button" value="-"></td>
+                    <td><input data-number class="button num-btn" type="button" value="4"></td>
+                    <td><input data-number class="button num-btn" type="button" value="5"></td>
+                    <td><input data-number class="button num-btn" type="button" value="6"></td>
+                    <td><input data-operator class="button ope-btn" type="button" value="-"></td>
                 </tr>
                 <tr>
-                    <td><input class="button" type="button" value="1"></td>
-                    <td><input class="button" type="button" value="2"></td>
-                    <td><input class="button" type="button" value="3"></td>
-                    <td><input class="button" type="button" value="+"></td>
+                    <td><input data-number class="button num-btn" type="button" value="1"></td>
+                    <td><input data-number class="button num-btn" type="button" value="2"></td>
+                    <td><input data-number class="button num-btn" type="button" value="3"></td>
+                    <td><input data-operator class="button ope-btn" type="button" value="+"></td>
                 </tr>
             </table>
     </div>
